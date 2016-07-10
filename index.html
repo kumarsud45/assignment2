@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Euphoria</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span> 
+          </button>
+          <a class="navbar-brand" href="index.html">Euphoria</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#myPage">HOME</a></li>
+            <li><a href="#">NEWS</a></li>
+            <li><a href="#">EVENTS</a></li> 
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">MEDIA
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li class="text-center"><a href="#">PHOTOS</a></li>
+                <li class="text-center"><a href="#">VIDEOS</a></li>
+                <li class="text-center"><a href="#">DISCOGRAPHY</a></li> 
+               </ul>
+            </li>
+            <li>
+              <a href="#myModal" data-toggle="modal"><span class="glyphicon glyphicon-log-in"></span> LOGIN</a>
+              <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Log In</h4>
+                      </div><!-- end modal-header -->
+                    <div class="modal-body">
+                      
+                      <form class="form-horizontal">
+                        <div class="form-group">
+                          <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+                          <div class="col-lg-10">
+                            <input class="form-control" id="inputEmail" placeholder="Enter your Email" type="email">
+                          </div>
+                        </div>
+                        
+                        <div class="form-group">
+                          <label class="col-lg-2 control-label" for="inputPassword">Password</label>
+                          <div class="col-lg-10">
+                            <input class="form-control" id="inputPassword" placeholder="Enter your Password" type="password">
+                          </div>
+                        </div>
+                        
+                      </form>
+                    </div><!-- end modal-body -->
+                    
+                    <div class="modal-footer">
+                      <button class="btn btn-info" type="button"><span class="glyphicon glyphicon-log-in"></span> Secure Login</button>
+                    </div><!-- end modal-footer -->
+                  </div><!-- end modal-content -->
+                </div><!-- end modal-dialog -->
+              </div><!-- end myModal -->
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <hr>
+
+    <div class="container">
+      <br>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+
+          <div class="item active">
+            <img src="img/carousel1.jpg" class="img-responsive" alt="carousel1">
+          </div>
+
+          <div class="item">
+            <img src="img/carousel2.jpg" class="img-responsive" alt="carousel2">
+          </div>
+        
+          <div class="item">
+            <img src="img/carousel3.jpg" class="img-responsive" alt="carousel3">
+          </div>
+
+          <div class="item">
+            <img src="img/carousel4.jpg" class="img-responsive" alt="carousel4">
+          </div>
+      
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- Container (The Band Section) -->
+    <div id="band" class="container text-center">
+      <h3>POPULAR  ALBUMS</h3>
+      <br>
+      <p class="col-md-12">Euphoria is an Indian rock band from the city of Delhi, India. Euphoria was put together by Palash Sen and his friends in New Delhi in 1988. The Band is one of the pioneers of the Indian pop music wave that hit India in the mid nineties. The band released their fifth studio album 'Item' in 2011 on Universal Music India.</p>
+      <br>
+      <br>
+      <br>
+      <div class="row">
+        <p>
+        <p>
+        <div class="col-xs-12 col-sm-3 col-md-3">
+          <a href="#demo1" data-toggle="tooltip" data-placement="top" title="Album : Dhoom">
+            <img src="img/album1.jpg" class="img-responsive img-rounded album clearfix" alt="album1">
+          </a>
+          <div id="demo1" class="collapse">
+            <p>Album : Dhoom</p>
+          </div>
+        </div>
+        <p>
+        <div class="col-xs-12 col-sm-3 col-md-3">
+          <a href="#demo2" data-toggle="tooltip" data-placement="top" title="Album : Phir Dhoom">
+            <img src="img/album2.jpg" class="img-responsive img-rounded album clearfix" alt="album2">
+          </a>
+          <div id="demo2" class="collapse">
+            <p>Album : Phir Dhoom</p>
+          </div>
+        </div>
+        <p>
+        <div class="col-xs-12 col-sm-3 col-md-3">
+          <a href="#demo3" data-toggle="tooltip" data-placement="top" title="Album : Gully">
+            <img src="img/album3.jpg" class="img-responsive img-rounded album clearfix" alt="album3">
+          </a>
+          <div id="demo3" class="collapse">
+            <p>Album : Gully</p>
+          </div>
+        </div>
+        <p>
+        <div class="col-xs-12 col-sm-3 col-md-3">
+          <a href="#demo4" data-toggle="tooltip" data-placement="top" title="Album : ReDhoom">
+            <img src="img/album4.jpg" class="img-responsive img-rounded album clearfix" alt="album4">
+          </a>
+          <div id="demo4" class="collapse">
+            <p>Album : ReDhoom</p>
+          </div>
+        </div>
+        <p>
+      </div>
+    </div>
+
+    
+    <!-- Container (EVENT Section) -->
+    <div id="tour" class="bg-1">
+      <div class="container">
+        <br>
+        <h3 class="text-center">EVENT DATES</h3>
+        <br>
+        <p class="text-center">Upcoming Events.<br> Remember to book your tickets!</p>
+        
+        <div class="row text-center">
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="img/mumbai.jpg" alt="Mumbai" class="img-responsive img-rounded album clearfix">
+              <p><strong>Mumbai</strong></p>
+              <p>Wednesday, 17 August 2016</p>
+              <button class="btn" data-toggle="modal" data-target="#myModal1">Buy Tickets</button>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="img/delhi.jpg" alt="Delhi" class="img-responsive img-rounded album clearfix">
+              <p><strong>Delhi</strong></p>
+              <p>Friday, 23 September 2016</p>
+              <button class="btn" data-toggle="modal" data-target="#myModal1">Buy Tickets</button>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="thumbnail">
+              <img src="img/kolkata.jpg" alt="Kolkata" class="img-responsive img-rounded album clearfix">
+              <p><strong>Kolkata</strong></p>
+              <p>Tuesday, 11 October 2016</p>
+              <button class="btn" data-toggle="modal" data-target="#myModal1">Buy Tickets</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="myModal1" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">×</button>
+              <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+            </div>
+            <div class="modal-body">
+              <form role="form">
+                <div class="form-group">
+                  <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Tickets, Rs 500 per person</label>
+                  <input type="number" class="form-control" id="psw" placeholder="How many?">
+                </div>
+                <div class="form-group">
+                  <label for="usrname"><span class="glyphicon glyphicon-user"></span> Send To</label>
+                  <input type="text" class="form-control" id="usrname" placeholder="Enter email">
+                </div>
+                  <button type="submit" class="btn btn-info btn-block">Pay
+                    <span class="glyphicon glyphicon-ok"></span>
+                  </button>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" class="btn btn-danger btn-default pull-right" data-dismiss="modal">
+                <span class="glyphicon glyphicon-remove"></span> Cancel
+              </button>
+              <p class="pull-left">Need <a href="#">help?</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="container">
+      <h3 class="text-center">Contact</h3>
+      <p class="text-center"><em>We love our fans!</em></p>
+
+      <div class="row">
+        <div class="col-md-4">
+          <p>Fan? Drop a note.</p>
+          <p><span class="glyphicon glyphicon-map-marker"></span>Mumbai, India</p>
+          <p><span class="glyphicon glyphicon-phone"></span>Phone: +91 9979897759</p>
+          <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@euphoria.com</p>
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+            </div>
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+            </div>
+          </div>
+          <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+          <br>
+          <div class="row">
+            <div class="col-md-12 form-group">
+              <button class="btn pull-right" type="submit">Send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+          <h6>Copyright &copy; 2016 Euphoria</h6>
+          </div><!-- end col-sm-3 -->
+          
+          <div class="col-sm-3">
+            <h6>About Us</h6>
+          </div><!-- end col-sm-3 -->
+          
+          <div class="col-sm-3">
+            <h6>Navigation</h6>
+            <ul class="unstyled">
+              <li type="none"><a href="#">Home</a></li>
+              <li type="none"><a href="#">News</a></li>
+              <li type="none"><a href="#">Events</a></li>
+              <li type="none"><a href="#">Media</a></li>
+            </ul>
+          </div><!-- end col-sm-3 -->
+          
+          <div class="col-sm-3">
+            <h6>Follow Us</h6>
+            <ul class="unstyled" >
+              <li type="none"><a href="#">Twitter</a></li>
+              <li type="none"><a href="#">Facebook</a></li>
+              <li type="none"><a href="#">Google Plus</a></li>
+            </ul>
+          </div><!-- end col-sm-3 -->
+          
+        </div><!-- end row -->
+      </div><!-- end container -->
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+
+    <script>
+      $('#myModal').appendTo("body");
+      $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip(); 
+      });
+    </script>
+
+  </body>
+</html>
